@@ -1,0 +1,35 @@
+p { color: black;}
+h3 {
+    color: rgb(50, 0, 0);
+}
+body.TopBody {
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    background-color: rgba(173, 54, 54, 0.85);
+}
+#id_left_pane {
+    width: 50%;
+    float: left;
+}
+#id_right_pane {
+    width: 50%;
+    float: right;
+}
+#id_right_table {
+    text-align: right;
+}
+div.secondDiv {
+    border: 3px;
+    margin: 10px;
+}
+div.header {
+    width: 100%;
+    height: 400px;
+    background-image: url("Image1.jpg");
+    background-position: top top;
+    background-repeat: no-repeat;
+}
+button.NavButton {
+    
+}
