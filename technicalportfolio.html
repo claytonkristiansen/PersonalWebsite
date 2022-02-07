@@ -6,105 +6,136 @@
 
 <script src="functions.js"></script>
 
-<html>
-    <body>
-        <div class="NavBar" >
-            <div id="id_left_pane">
-                <table class="LeftTable">
-                    <tr>
-                        <td>
-                            <button class="NavButton" onclick="location.href='index.html'">Home<span></span></button>
-                        </td>
-                        <td>
-                            <button class="NavButton" onclick="location.href='technicalportfolio.html'">Technical Portfolio<span></span></button>
-                        </td>
-                        <td>
-                            <button class="NavButton" onclick="location.href='qualifications.html'">Qualifications<span></span></button>
-                        </td>
-                        <td>
-                            <button class="NavButton" onclick="location.href='service.html'">Service<span></span></button>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-            <div id="id_right_pane">
-                <table align="right" class="RightTable">
-                    <tr>
-                        <td>
-                            <button class="NavButton" onclick="ChangeCSS('style1.css')">Style 1</button>
-                        </td>
-                        <td>
-                            <button class="NavButton" onclick="ChangeCSS('style2.css')">Style 2</button>
-                        </td>
-                        <td>
-                            <button class="NavButton" onclick="ChangeCSS('')">No CSS</button>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-        <div class="SecondDiv">
-            <h1>Projects</h1>
-            <p>Professional Social Media:</p>
-            <a href="https://www.linkedin.com/in/claytonkristiansen/">LinkedIn</a>
-            <a href="https://github.com/claytonkristiansen">GitHub</a>
-            <table>
+
+<body>
+    <div class="NavBar" >
+        <div id="id_left_pane">
+            <table class="LeftTable">
                 <tr>
                     <td>
-                        
+                        <button class="NavButton" onclick="location.href='index.html'">Home<span></span></button>
                     </td>
-                </tr>
-                <tr>
                     <td>
-                        <h3>My Mirror</h3>
-                        <p>Custom made mirror that displays important information about your schedule, the weather, and much more</p>
-                        <a href="https://github.com/claytonkristiansen/mymirror">www.github.com/claytonkristiansen/mymirror</a>
+                        <button class="NavButton" onclick="location.href='technicalportfolio.html'">Technical Portfolio<span></span></button>
                     </td>
-                </tr>
-                <tr>
                     <td>
-                        <h3>Algorithms Visualizer</h3>
-                        <p>Website providing visual demonstration of algorithms including Dikstras and Heap Sort</p>
-                        <a href="https://github.com/claytonkristiansen/Algorithms">www.github.com/claytonkristiansen/Algorithms</a>
+                        <button class="NavButton" onclick="location.href='qualifications.html'">Qualifications<span></span></button>
                     </td>
-                </tr>
-                <tr>
                     <td>
-                        <h3>Fourier Series Visualizer</h3>
-                        <p>Python script that shows the process of forming a Fourier Series from a summation of scaled sinusoids</p>
-                        <a href="https://github.com/claytonkristiansen/FourierSeriesVisualizer">www.github.com/claytonkristiansen/FourierSeriesVisualizer</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <h3>Cyber Cypher</h3>
-                        <p>Android application for encrypting and sending messages between users</p>
-                        <a href="https://github.com/claytonkristiansen/CyberCypher">www.github.com/claytonkristiansen/CyberCypher</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <h3>Buddy Allocator</h3>
-                        <p>Memory allocation system written in C++ that uses a buddy management system similar to that used in Linux</p>
-                        <a href="https://github.com/claytonkristiansen/BuddyAllocator">www.github.com/claytonkristiansen/BuddyAllocator</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <h3>Linux Shell</h3>
-                        <p>Custom made shall that mimicks the standard BASH shell, but with some extra customization</p>
-                        <a href="https://github.com/claytonkristiansen/LinuxShell">www.github.com/claytonkristiansen/LinuxShell</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <br>
-                        <p>Here are some cool websites I developed using GitHub pages:</p>
-                        <a href="https://claytonkristiansen.github.io/mymirror/">www.claytonkristiansen.github.io/mymirror/</a> <br>
-                        <a href="https://claytonkristiansen.github.io/Algorithms/">www.claytonkristiansen.github.io/Algorithms/</a>
+                        <button class="NavButton" onclick="location.href='service.html'">Service<span></span></button>
                     </td>
                 </tr>
             </table>
         </div>
-    </body>
-</html>
+        <div id="id_right_pane">
+            <table align="right" class="RightTable">
+                <tr>
+                    <td>
+                        <button class="NavButton" onclick="ChangeCSS('style1.css')">Style 1</button>
+                    </td>
+                    <td>
+                        <button class="NavButton" onclick="ChangeCSS('style2.css')">Style 2</button>
+                    </td>
+                    <td>
+                        <button class="NavButton" onclick="ChangeCSS('')">No CSS</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="SecondDiv">
+        <h1>Projects</h1>
+        <p>Professional Social Media:</p>
+        <a href="https://www.linkedin.com/in/claytonkristiansen/">LinkedIn</a>
+        <a href="https://github.com/claytonkristiansen">GitHub</a>
+        <ul class="ListTable">
+            <tr>
+                <td>
+                    <h3> My Mirror</h3>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="id_page_text_body">
+                        <p>Custom made mirror that displays important information about your schedule, the weather, and much more</p>
+                        <a href="https://github.com/claytonkristiansen/mymirror">www.github.com/claytonkristiansen/mymirror</a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>Algorithms Visualizer</h3>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="id_page_text_body">
+                        <p>Website providing visual demonstration of algorithms including Dikstras and Heap Sort</p>
+                        <a href="https://github.com/claytonkristiansen/Algorithms">www.github.com/claytonkristiansen/Algorithms</a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>Fourier Series Visualizer</h3>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="id_page_text_body">
+                        <p>Python script that shows the process of forming a Fourier Series from a summation of scaled sinusoids</p>
+                        <a href="https://github.com/claytonkristiansen/FourierSeriesVisualizer">www.github.com/claytonkristiansen/FourierSeriesVisualizer</a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>Cyber Cypher</h3>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="id_page_text_body">
+                        <p>Android application for encrypting and sending messages between users</p>
+                        <a href="https://github.com/claytonkristiansen/CyberCypher">www.github.com/claytonkristiansen/CyberCypher</a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>Buddy Allocator</h3>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="id_page_text_body">
+                        <p>Memory allocation system written in C++ that uses a buddy management system similar to that used in Linux</p>
+                        <a href="https://github.com/claytonkristiansen/BuddyAllocator">www.github.com/claytonkristiansen/BuddyAllocator</a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>Linux Shell</h3>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="id_page_text_body">
+                        <p>Custom made shall that mimicks the standard BASH shell, but with some extra customization</p>
+                        <a href="https://github.com/claytonkristiansen/LinuxShell">www.github.com/claytonkristiansen/LinuxShell</a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="id_page_text_body">
+                        <p>Here are some cool websites I developed using GitHub pages:</p>
+                        <a href="https://claytonkristiansen.github.io/mymirror/">www.claytonkristiansen.github.io/mymirror/</a> <br>
+                        <a href="https://claytonkristiansen.github.io/Algorithms/">www.claytonkristiansen.github.io/Algorithms/</a>
+                    </div>
+                </td>
+            </tr>
+        </ul>
+    </div>
+</body>

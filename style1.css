@@ -27,16 +27,36 @@ body {
 #id_right_table {
     text-align: right;
 }
-div.SecondDiv {
+.SecondDiv {
     border: 3px;
     margin: 10px;
 }
-div.NavBar {
+.FirstDiv {
     width: 100%;
     height: 200px;
     background-image: url("Image2.jpg");
     background-position: top center;
     background-repeat: no-repeat;
+}
+.RightTable {
+    margin: 0;
+    margin-right: 0px;
+    list-style-type: none;
+}
+.RightTable li{
+    display: block;
+    float: right;
+    padding: 5px 5px;
+}
+.LeftTable{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.LeftTable li{
+    display: block;
+    float: left;
+    padding: 5px 5px;
 }
 img.ProfilePicture {
     border: 2px solid rgb(40, 26, 238);
@@ -48,15 +68,15 @@ button.NavButton {
     border-radius: 7px;
     transition: .3s;
     color: #fff;
-   }
-   
-   button.NavButton:hover {
+}
+
+button.NavButton:hover {
     border: 1px solid rgb(20, 87, 244);
     background-color: transparent;
     color: rgb(20, 87, 244);
-   }
-   
-   button.NavButton:focus {
+}
+
+button.NavButton:focus {
     box-shadow: 0px 0px 0px 5px rgba(20, 87, 244, 0.37), 0px 0px 0px 10px rgba(20, 87, 244, 0.38);
     outline: none;
-   }
+}

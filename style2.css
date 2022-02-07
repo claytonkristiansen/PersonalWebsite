@@ -1,14 +1,17 @@
 p { 
     color: rgb(25, 3, 3);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 h3 {
     color: rgb(25, 3, 3);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 h1 {
     color: rgb(50, 0, 0);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+Title {
+    text-align: center;
 }
 body {
     margin: 0;
@@ -17,7 +20,8 @@ body {
     background-color: rgba(173, 54, 54, 0.85);
 }
 #ProfilePictureTD {
-    align-self:center;
+    float: right;
+    border: 5px solid rgb(161, 38, 0);
 }
 #id_left_pane {
     width: 50%;
@@ -27,17 +31,40 @@ body {
     width: 50%;
     float: right;
 }
-table.LeftTable {
-    margin-left: 0px;
-}
-table.RightTable {
+.RightTable {
+    margin: 0;
     margin-right: 0px;
+    list-style-type: none;
+}
+.RightTable li{
+    display: block;
+    padding: 2px 5px;
+}
+.LeftTable{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.LeftTable li{
+    display: block;
+    padding: 2px 5px;
 }
 div.SecondDiv {
     border: 3px;
-    margin: 10px;
+    margin: 20px;
+    text-align: center;
 }
-div.NavBar {
+table.ListTable {
+    text-align: center;
+}
+#id_page_text_body {
+    border: 5px solid rgb(161, 38, 0);
+    padding: 5px;
+    border-radius: 25px;
+    background-color: rgb(202, 178, 127);
+    text-align: center;
+}
+.FirstDiv {
     width: 100%;
     border: 0px;
     margin: 0px;
