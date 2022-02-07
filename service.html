@@ -1,15 +1,88 @@
 <!DOCTYPE html>
 
 <head>
-
+    <link id="id_style" rel="stylesheet" href="style1.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 </head>
 
+<script src="functions.js"></script>
+
 <body>
-    <a href="https://www.linkedin.com/in/claytonkristiansen/">LinkedIn</a>
-    <a href="https://github.com/claytonkristiansen">GitHub</a> <br></br>
-    <button onclick="location.href='index.html'">Home</button>
-    <button onclick="location.href='technicalportfolio.html'">Technical Portfolio</button>
-    <button onclick="location.href='qualifications.html'">Qualifications</button>
-    <button onclick="location.href='service.html'">Service</button>
-    <p>Service yet to come (I have some I just haven't put any in here yet)</p>
+    <div class="NavBar" >
+        <div id="id_left_pane">
+            <table class="LeftTable">
+                <tr>
+                    <td>
+                        <button class="NavButton" onclick="location.href='index.html'">Home<span></span></button>
+                    </td>
+                    <td>
+                        <button class="NavButton" onclick="location.href='technicalportfolio.html'">Technical Portfolio<span></span></button>
+                    </td>
+                    <td>
+                        <button class="NavButton" onclick="location.href='qualifications.html'">Qualifications<span></span></button>
+                    </td>
+                    <td>
+                        <button class="NavButton" onclick="location.href='service.html'">Service<span></span></button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="id_right_pane">
+            <table align="right" class="RightTable">
+                <tr>
+                    <td>
+                        <button class="NavButton" onclick="ChangeCSS('style1.css')">Style 1</button>
+                    </td>
+                    <td>
+                        <button class="NavButton" onclick="ChangeCSS('style2.css')">Style 2</button>
+                    </td>
+                    <td>
+                        <button class="NavButton" onclick="ChangeCSS('')">No CSS</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="SecondDiv">
+        <h1>Service</h1>
+        <table>
+            <tr>
+                <td>
+                    <h3>
+                        Boy Scouts
+                    </h3>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>From 2011 to the present I have volunteered with the Boy Scout troop back in my home town of Duvall, Washington. When I was a kid I was a scout and would participate as a member. Now I volunteer as an adult leader and work with the scouts as a mentor.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>
+                        Engineering Honors
+                    </h3>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>For engineering honors I have been volunteering to help organize events for over 2 years.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>
+                        Texas Runners Against Cancer
+                    </h3>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>I often volunteer with the Texas Runners Against Cancer club to help raise money for cancer research. We usually do running fundraisers where people donate a certain amount of money for every mile one of us is able to run.</p>
+                </td>
+            </tr>
+        </table>
+    </div>
 </body>

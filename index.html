@@ -7,45 +7,45 @@
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 </head>
 
+<script src="functions.js"></script>
 
-
-<body class="TopBody">
-    <div class="header" >
+<body class="MainBody">
+    <div class="NavBar" >
         <div id="id_left_pane">
-            <table class="NavigationBar">
+            <table class="LeftTable">
                 <tr>
                     <td>
-                        <button class="NavButton" onclick="location.href='index.html'">Home</button>
+                        <button class="NavButton" onclick="location.href='index.html'">Home<span></span></button>
                     </td>
                     <td>
-                        <button class="NavButton" onclick="location.href='technicalportfolio.html'">Technical Portfolio</button>
+                        <button class="NavButton" onclick="location.href='technicalportfolio.html'">Technical Portfolio<span></span></button>
                     </td>
                     <td>
-                        <button class="NavButton" onclick="location.href='qualifications.html'">Qualifications</button>
+                        <button class="NavButton" onclick="location.href='qualifications.html'">Qualifications<span></span></button>
                     </td>
                     <td>
-                        <button class="NavButton" onclick="location.href='service.html'">Service</button>
+                        <button class="NavButton" onclick="location.href='service.html'">Service<span></span></button>
                     </td>
                 </tr>
             </table>
         </div>
         <div id="id_right_pane">
-            <table align="right">
+            <table align="right" class="RightTable">
                 <tr>
                     <td>
-                        <button class="NavButton" onclick="document.getElementById('id_style').href='style1.css'">Style 1</button>
+                        <button class="NavButton" onclick="ChangeCSS('style1.css')">Style 1</button>
                     </td>
                     <td>
-                        <button class="NavButton" onclick="document.getElementById('id_style').href=''">No CSS</button>
+                        <button class="NavButton" onclick="ChangeCSS('style2.css')">Style 2</button>
+                    </td>
+                    <td>
+                        <button class="NavButton" onclick="ChangeCSS('')">No CSS</button>
                     </td>
                 </tr>
             </table>
         </div>
     </div>
-    <div class="secondDiv">
-        <a href="https://www.linkedin.com/in/claytonkristiansen/">LinkedIn</a>
-        <a href="https://github.com/claytonkristiansen">GitHub</a> <br></br>
-        
+    <div class="SecondDiv">        
         <table width="100%" border="0" cellspacing="0" cellpadding="0">
             <tr>
                 <td align="center">
@@ -53,8 +53,14 @@
                 </td>
             </tr>
             <tr>
-                <td align="left">
-                    <img src="ProfilePicture.jpg" alt="Clayton Kristiansen" width="173" height="173">
+                <td id="ProfilePictureTD" align="left">
+                    <img src="ProfilePicture.jpg" alt="Clayton Kristiansen" width="173" height="173" class="ProfilePicture">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://www.linkedin.com/in/claytonkristiansen/">LinkedIn</a>
+                    <a href="https://github.com/claytonkristiansen">GitHub</a>
                 </td>
             </tr>
             <tr>
@@ -76,14 +82,6 @@
                                 5 individuals to develop new technologies for finding the perfect fit while shopping for clothes online. I look forward to both 
                                 working on and leading the development of projects, and I am excited to have the opportunity to find a job doing what I love. <br></br>
                         </p>
-                        <br></br>
-                        <p>Here are some cool websites I developed using GitHub pages:</p>
-                        <a href="https://claytonkristiansen.github.io/mymirror/">www.claytonkristiansen.github.io/mymirror/</a> <br>
-                        <a href="https://claytonkristiansen.github.io/Algorithms/">www.claytonkristiansen.github.io/Algorithms/</a>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <button>Toggle Style</button>
                 </td>
             </tr>
         </table>

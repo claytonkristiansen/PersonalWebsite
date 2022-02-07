@@ -1,14 +1,73 @@
 <!DOCTYPE html>
 <head>
-
+    <link id="id_style" rel="stylesheet" href="style1.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 </head>
 
+<script src="functions.js"></script>
+
 <body>
-    <a href="https://www.linkedin.com/in/claytonkristiansen/">LinkedIn</a>
-    <a href="https://github.com/claytonkristiansen">GitHub</a> <br></br>
-    <button onclick="location.href='index.html'">Home</button>
-    <button onclick="location.href='technicalportfolio.html'">Technical Portfolio</button>
-    <button onclick="location.href='qualifications.html'">Qualifications</button>
-    <button onclick="location.href='service.html'">Service</button>
-    <p>Qualifications yet to come (I have them I just haven't put them in here yet)</p>
+    <div class="NavBar" >
+        <div id="id_left_pane">
+            <table class="LeftTable">
+                <tr>
+                    <td>
+                        <button class="NavButton" onclick="location.href='index.html'">Home<span></span></button>
+                    </td>
+                    <td>
+                        <button class="NavButton" onclick="location.href='technicalportfolio.html'">Technical Portfolio<span></span></button>
+                    </td>
+                    <td>
+                        <button class="NavButton" onclick="location.href='qualifications.html'">Qualifications<span></span></button>
+                    </td>
+                    <td>
+                        <button class="NavButton" onclick="location.href='service.html'">Service<span></span></button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="id_right_pane">
+            <table align="right" class="RightTable">
+                <tr>
+                    <td>
+                        <button class="NavButton" onclick="ChangeCSS('style1.css')">Style 1</button>
+                    </td>
+                    <td>
+                        <button class="NavButton" onclick="ChangeCSS('style2.css')">Style 2</button>
+                    </td>
+                    <td>
+                        <button class="NavButton" onclick="ChangeCSS('')">No CSS</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="SecondDiv">
+        <h1>Qualifications</h1>
+        <p>Click here to view my <a href="ClaytonResume01-24-2022.pdf">resume</a></p>
+        <table>
+            <tr>
+                <td>
+                    <h3>Technical Skills</h3>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>I am highly skilled in multiple programming languages including C++, C#, Java, Python, Verilog, and Javascript. I have done multiple projects in each of these languages in both individual and team settings. The details of these projects are included on the Technical Portfolio page as well as on my resume.</p>
+                    <p>In addition, I am familiar with LSTM and RNN machine learning models and am currently working on a research team that is employing these technologies.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>Technical Areas of Interest</h3>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>My current area of interest in Computer Engineering is machine learning. I find this field to be incredibly intersting and terrifying at the same time. The fact that they are developing neural net models based on the idea of neurons in a brain is mind-blowing.</p>
+                    <p>I am also interesting in digital design and will likely be pursuing an internship with Texas Instruments doing so this summer. I like this as well because it is a pure logical art which required intensly creative problem solving.</p>
+                </td>
+            </tr>
+        </table>
+    </div>
 </body>
